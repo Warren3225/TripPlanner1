@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+  }
+  
+#map {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  }
+
+#header {
+  display: flex;
+  /* justify-content: center; */
+  /* margin-left:  5%;
+  margin-right: 5%; */
+  z-index: 2;
+  /* background-color: rgba(221, 0, 0, 0.1);
+  border-radius: 0 0 1em 1em; */ 
+}
+
+h1 {
+  height: 2em;
+  position: fixed;
+  text-align: center;
+
+}
+#header a {
+  text-decoration: none;
+  font-size: 1em;
+}
