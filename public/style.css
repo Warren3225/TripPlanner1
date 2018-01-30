@@ -15,7 +15,7 @@ body {
   z-index: 1;
   }
 
-.header-box{
+header{
     display: flex;
     width: 100vw; 
     z-index: 0;
