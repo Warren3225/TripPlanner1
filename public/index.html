@@ -7,21 +7,27 @@
     <script src="./bundle.js" defer></script>
   </head>
   <body>
-    <div id="map">
-        <header>
-        <
+    <div id='parentContainer'>
     <h1 id='header'>Trip Planner</h1>
+        <div id='container'>
+            <div id="map"></div>
 
-        </header>
-    <div id='UI'>
-        <input type="checkbox" value='hotels'>Hotels<br>
-        <input type="checkbox" value='restaurants'>Restaurants<br>
-        <input type="checkbox" value='activities'>Activities<br>
-        <input type='submit' value="Show Me!">
-    </div>
-
-    <div id='display'></div>
-
+            <div id='UICont'>
+                <div id='UI'>
+            <input type="checkbox" value='hotels'><span class='checkbox'> Hotels</span><br>
+            <input type="checkbox" value='restaurants'><span class='checkbox'> Restaurants</span><br>
+            <input type="checkbox" value='activities'><span class='checkbox'> Activities</span><br>
+                </div>
+              
+            <div id='itinerary'>
+                <ul>
+                    <li>Hotel</li>
+                    <li>Restaurant</li>
+                    <li>Activities</li>
+                </ul>
+            </div>
+        </div>
+        </div>
     </div>
   </body>
 </html> 

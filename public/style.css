@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    border: 1px solid;
   }
   
 body {
@@ -8,33 +9,56 @@ body {
   background-color: #C1B5AD;
   }
   
-#map {
-  height: 100vh;
-  width: 100vw;
+#container {
   display: flex;
-  z-index: 1;
-  }
 
-header{
-    display: flex;
-    width: 100vw; 
-    z-index: 0;
-    justify-content: center;
+}
+
+#UI {
+  width: 15vw;
+  height: 50%;
+ }
+
+#itinerary {
+  height: 50%;
+  background-color: aqua;
+  align-self: end;
+}
+
+#map {
+  width: 85vw;
+  display: flex;
+  z-index: 0;
+  height: 80vh;
 }
 
 #header {
-  margin-left: 50%;
   align-self: center;
-  z-index: 2;
-}
-
-h1 {
   height: 2em;
-  position: fixed;
   text-align: center;
-
+  display: block;
+  width: 100%;
+  z-index: 0;
 }
-#header a {
-  text-decoration: none;
-  font-size: 1em;
+
+.checkbox {
+  font-size: 1.5em;
+  align-self: start;
+}
+
+.submitBtn {
+  font-size: 1.3em;
+}
+
+#parentContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#UICont {
+  flex-direction: column;
+}
+
+li {
+  padding: 5px;
 }
